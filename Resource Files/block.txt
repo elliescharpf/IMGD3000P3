@@ -1,3 +1,0 @@
-Example block:
- _ _ _
-|_|_|_|
