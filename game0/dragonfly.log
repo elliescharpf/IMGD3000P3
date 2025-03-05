@@ -1,0 +1,10 @@
+15:02:01    0 ****************************************************
+15:02:01    0 ** Dragonfly version 4.21 **
+15:02:01    0 ** Game engine started **
+15:02:01    0 ****************************************************
+15:02:01    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+15:02:01    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+15:02:04   90 GameStart object created.
+15:02:19  458 GameManager::run(): Can't keep up! frame_time 33 ms, split 119 ms
+15:02:19  459 ****************************************************
+15:02:19  459 ** Game engine stopped **
