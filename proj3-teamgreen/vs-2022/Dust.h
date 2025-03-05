@@ -1,5 +1,5 @@
 #pragma once
-//Star.h
+//Dust.h
 
 //include:
 #include "Object.h"
