@@ -56,7 +56,7 @@ void loadResources(void) {
     RM.loadSprite("sprites/gameover-spr.txt", "gameover");
 
     RM.loadMusic("sounds/StartMusic.wav", "StartMusic");
-    //RM.loadMusic("sounds/maingametheme", "maingametheme");
+    RM.loadMusic("sounds/maingametheme", "maingametheme");
 }
 
 // Populate world with some objects.q

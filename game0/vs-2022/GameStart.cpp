@@ -32,7 +32,10 @@ GameStart::GameStart() {
 
     //Play start music
     p_music = RM.getMusic("StartMusic");
+    m_music = RM.getMusic("maingametheme");
     playMusic();
+    music_playing = true;
+
 }
 
 void GameStart::playMusic() {
@@ -40,6 +43,14 @@ void GameStart::playMusic() {
         p_music->play();
     }
 }//playing intro music
+
+void GameStart::pauseMusic() {
+    df::Sound* main_music = df::ResourceManager::getInstance().getSound("maingametheme");
+    if (main_music && music_playing) {
+        main_music->pause();
+        music_playing = false;
+    }
+}
 
 // Handle gamestart events
 int GameStart::eventHandler(const df::Event* p_e) {
@@ -81,9 +92,8 @@ void GameStart::start() {
     //Pause start music
     p_music->pause();
 
-    //Play main music
-    /*p_music = RM.getMusic("maingametheme");
-    playMusic();*/
+    //Play start music
+    playMusic();
 }
 
 // Override default draw

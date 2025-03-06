@@ -8,6 +8,7 @@
 #include "GameOver.h"
 #include "GameStart.h"
 #include "GameManager.h"
+#include "Music.h"
 
 GameOver::GameOver() {
 
@@ -41,6 +42,7 @@ GameOver::~GameOver() {
 			WM.markForDelete(p_o);
 		if (p_o->getType() == "GameStart") {
 			p_o->setActive(true);
+			dynamic_cast <GameStart*> (p_o)->pauseMusic(); // Pause main music
 			dynamic_cast <GameStart*> (p_o)->playMusic(); // Resume start music.
 		}
 	}
@@ -69,3 +71,4 @@ void GameOver::step() {
 int GameOver::draw() {
 	return df::Object::draw();
 }
+

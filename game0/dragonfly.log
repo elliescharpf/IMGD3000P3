@@ -1,10 +1,11 @@
-15:02:01    0 ****************************************************
-15:02:01    0 ** Dragonfly version 4.21 **
-15:02:01    0 ** Game engine started **
-15:02:01    0 ****************************************************
-15:02:01    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-15:02:01    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
-15:02:04   90 GameStart object created.
-15:02:19  458 GameManager::run(): Can't keep up! frame_time 33 ms, split 119 ms
-15:02:19  459 ****************************************************
-15:02:19  459 ** Game engine stopped **
+21:59:22    0 ****************************************************
+21:59:22    0 ** Dragonfly version 4.21 **
+21:59:22    0 ** Game engine started **
+21:59:22    0 ****************************************************
+21:59:23    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 47 ms
+21:59:25   90 RM::loadmusic(): Error! Cannot load music from file 'sounds/maingametheme'.
+21:59:25   90 GameStart object created.
+21:59:25   90 RM::getMusic(): Warning! Music 'maingametheme' not found.
+21:59:34  248 RM::getSound(): Warning! Sound 'maingametheme' not found.
+21:59:34  248 ****************************************************
+21:59:34  248 ** Game engine stopped **
